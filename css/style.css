@@ -4,6 +4,7 @@ body{
         grid-template-columns:1fr 1fr 1fr;
         grid-template-areas:"c c a" 
                             "b b a";
+    background-color:burlywood ;
 }
 
 
@@ -19,9 +20,34 @@ body{
 
 #pTemp{
     grid-area: b;
+    color: rgb(21, 193, 216);
+    text-align: center;
+    font-family: verdana;
+    font-size: 15px;
 }
 
 
 #pesquisar{
     grid-area: c;
+    color: rgb(21, 193, 216);
+    text-align: center;
+    font-family: verdana;
+    font-size: 15px;
+}
+
+h1{
+    color: blue;
+   
+}
+#btnConsultar{
+    color: rgb(17, 16, 16);
+    background-color: rgb(236, 195, 195);
+    font-size: larger;
+}
+
+#city{
+    color: rgb(17, 16, 16);
+    background-color: rgb(236, 195, 195);
+    font-size: larger;
+}
 }
