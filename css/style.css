@@ -4,7 +4,7 @@ body{
         grid-template-columns:1fr 1fr 1fr;
         grid-template-areas:"c c a" 
                             "b b a";
-    background-color:burlywood ;
+    background-color:rgb(139, 205, 231) ;
 }
 
 
@@ -20,7 +20,7 @@ body{
 
 #pTemp{
     grid-area: b;
-    color: rgb(21, 193, 216);
+    color: rgb(7, 14, 15);
     text-align: center;
     font-family: verdana;
     font-size: 15px;
@@ -29,7 +29,7 @@ body{
 
 #pesquisar{
     grid-area: c;
-    color: rgb(21, 193, 216);
+    color: rgb(10, 15, 15);
     text-align: center;
     font-family: verdana;
     font-size: 15px;
