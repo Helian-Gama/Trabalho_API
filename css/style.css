@@ -1,18 +1,20 @@
 body{
     display: grid;
     grid-template-rows: 1fr 1fr;
-        grid-template-columns:1fr 1fr;
-        grid-template-areas:"c c" 
-                            "b a";
+        grid-template-columns:1fr 1fr 1fr;
+        grid-template-areas:"c c a" 
+                            "b b a";
 }
 
 
 #imgTempo {
-    height: 100px; 
-    width: 100px;
+    height: 400px; 
+    width: 400px;
     display: none;
     grid-area: a;
     top: 20px;
+    margin-top: auto;
+    
 }
 
 #pTemp{
